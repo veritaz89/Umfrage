@@ -1,0 +1,43 @@
+table#responsetable {
+    border:1px solid;
+    margin-left:auto;
+    margin-right: auto;
+    width:50%
+}
+
+div#responsebox
+{
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    max-width:50%;
+    text-align: center;
+}
+
+.valid
+{
+    border-color:#0f0;
+    background-color:#cfc;
+    color:#060;
+}
+
+
+.invalid
+{
+    border-color:#f00;
+    background-color:#fcc;
+    color:#600;
+}
+
+div{
+    width: 300px;
+    display: flex;
+    margin: 10px 0;
+}
+.value{
+    flex-direction: row;
+    justify-content: space-between;
+}
